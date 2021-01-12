@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(153, 153, 153);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+  /*
+   * CSS image reference example.
+   */
+  /* background-image: url("./images/bg-pattern.png"); */
+}
+li {
+  list-style: none;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.phonebook {
+  display: block;
+}
+.input-field {
+  display: flex;
+  align-items: center;
+}
+.input-field:not(:last-child) {
+  margin-bottom: 10px;
+}
+.input-field:last-child {
+  margin-bottom: 15px;
+}
+.form-create {
+  margin-bottom: 15px;
+}
